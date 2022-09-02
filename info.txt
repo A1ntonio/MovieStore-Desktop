@@ -1,0 +1,1 @@
+Please Install Application in side C:/ or root Folder. Otherwise you will get the database error!

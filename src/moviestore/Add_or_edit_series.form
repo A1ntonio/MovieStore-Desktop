@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Add Series Movies"/>
+    <Property name="iconImage" type="java.awt.Image" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+      <Connection code="new javax.swing.ImageIcon(getClass().getResource(&quot;/moviestore/Icons/folder_movies_icon_7.png&quot;)).getImage()" type="code"/>
+    </Property>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[997, 511]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowOpened" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowOpened"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel2" min="-2" pref="76" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="308" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" pref="81" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="title_field" min="-2" pref="364" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="year" min="-2" pref="145" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jButton4" min="-2" pref="198" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jScrollPane2" min="-2" pref="943" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jButton1" min="-2" pref="133" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel1" min="-2" pref="84" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="folderPath" min="-2" pref="388" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                      <Component id="scannedFiles" min="-2" pref="388" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="197" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="jButton2" min="-2" pref="133" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jButton3" max="32767" attributes="0"/>
+                  <Component id="jButton6" max="32767" attributes="0"/>
+                  <Component id="jButton7" alignment="1" min="-2" pref="74" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="12" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="title_field" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="year" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Component id="jButton4" min="-2" pref="44" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="338" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jButton6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jButton7" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButton2" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+                          <Component id="jButton1" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="folderPath" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="scannedFiles" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="34" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="jLabel5" min="-2" pref="51" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Title"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="title_field">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Power Geez Unicode2" size="12" style="0"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Title"/>
+        <Property name="dragEnabled" type="boolean" value="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="title_fieldActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="if(ids == 0){&#xa;        title_field.setDropTarget(new DropTarget() {&#xa;            public synchronized void drop(DropTargetDropEvent evt){&#xa;                &#xa;                    evt.acceptDrop(DnDConstants.ACTION_COPY);&#xa;                try {&#xa;                    List&lt;File&gt; droppedfile = (List&lt;File&gt;) evt.getTransferable().getTransferData(DataFlavor.javaFileListFlavor);&#xa;                    for(File file : droppedfile){&#xa;                        tf = false;&#xa;                                &#xa;                                       folder_path = file.getPath();&#xa;                                       folderPath.setText(file.getPath());&#xa;                                       if(file.isDirectory()){&#xa;                                           if(strings == null){&#xa;                                               title_field.setText(file.getName());&#xa;                                                String chara = file.getName();&#xa;                                                int check = file.getName().length();&#xa;                                                int i = 0;&#xa;                                                String ch = &quot;&apos;&quot;;&#xa;                                                char[] c = ch.toCharArray();&#xa;                                                char cc = c[0];&#xa;                                                String renamedValue;&#xa;                                                while(i&lt;check){&#xa;                                                    if(chara.charAt(i)==cc){&#xa;&#xa;                                                        renamedValue = JOptionPane.showInputDialog(&quot;Please rename file:&quot;+chara+&quot;.\n Don&apos;t use Apostrophe(&apos;) character.&quot;);&#xa;                                                        if(renamedValue != null){&#xa;                                                            File renamingFile = new File(file.getPath());&#xa;                                                            renamingFile.renameTo(new File(file.getParent()+&quot;\\&quot;+renamedValue));&#xa;                                                            title_field.setText(renamedValue);&#xa;                                                            folderPath.setText(file.getParent()+&quot;\\&quot;+renamedValue);&#xa;                                                            tf = true;&#xa;                                                            JOptionPane.showMessageDialog(Add_or_edit_series.this, &quot;Folder &quot;+file.getName()+ &quot; renamed to &quot; + renamedValue+&quot;.\n Please choose the folder again from the file explorar.&quot;);&#xa;                                                        }else{&#xa;                                                            title_field.setText(&quot;&quot;);&#xa;                                                            folderPath.setText(&quot;&quot;);&#xa;                                                            tf = false;&#xa;                                                        }&#xa;&#xa;                                                    }&#xa;                                                    i++;&#xa;                                                }&#xa;&#xa;                                           }&#xa;                                       if(!tf){&#xa;                                           Object[] fils = null;&#xa;                                           try {&#xa;                                               fils = Files.walk(Paths.get(file.getPath())).filter(Files::isRegularFile).toArray();&#xa;&#xa;                                               } catch (IOException ex) {&#xa;                                                   JOptionPane.showMessageDialog(Add_or_edit_series.this, ex.getMessage());&#xa;                                               }&#xa;                                           scannedFiles.setText(fils.length+&quot; file selected!&quot;);&#xa;                                       DefaultTableModel model = (DefaultTableModel)jTable2.getModel();&#xa;                                       String[] strg = new String[8];&#xa;                                       int j = 0;&#xa;                                       for(Object files : fils){&#xa;                                           File newfile = new File(files.toString());&#xa;                                           String ext2 = &quot;&quot;;&#xa;                                                int d = newfile.getName().lastIndexOf(&apos;.&apos;);&#xa;                                                if (d &gt; 0){&#xa;                                                    ext2 = newfile.getName().substring(d+1);&#xa;                                                  }&#xa;                                             switch (ext2) {&#xa;                                                 case &quot;mp3&quot;: case &quot;MP3&quot;:&#xa;                                                     case &quot;wav&quot;: case &quot;WAV&quot;:&#xa;                                                         case &quot;AAC&quot;: case &quot;aac&quot;:&#xa;                                                             case &quot;AC3&quot;: case &quot;ac3&quot;:&#xa;                                                                 case &quot;AIF&quot;: case &quot;aif&quot;:&#xa;                                                                     case &quot;AIFF&quot;: case &quot;aiff&quot;:&#xa;                                                                         case &quot;AU&quot;: case &quot;au&quot;:&#xa;                                                                             case &quot;FLAC&quot;: case &quot;flac&quot;:&#xa;                                                                                 case &quot;M4A&quot;: case &quot;m4a&quot;:&#xa;                                                                                     case &quot;MKA&quot;: case &quot;mka&quot;:&#xa;                                                                                         case &quot;MP2&quot;: case &quot;mp2&quot;:&#xa;                                                                                             case &quot;OGG&quot;: case &quot;ogg&quot;:&#xa;                                                                                                 case &quot;WMA&quot;: case &quot;wma&quot;:&#xa;                                                                                                     case &quot;mp4&quot;:&#xa;                                                 case &quot;MP4&quot;:&#xa;                                                 case &quot;avi&quot;:&#xa;                                                 case &quot;AVI&quot;:&#xa;                                                 case &quot;mkv&quot;:&#xa;                                                 case &quot;MKV&quot;:&#xa;                                                 case &quot;mov&quot;:&#xa;                                                 case &quot;MOV&quot;:&#xa;                                                     case &quot;flv&quot;: case &quot;FLV&quot;:&#xa;                                                             case &quot;vob&quot;: case &quot;VOB&quot;:&#xa;                                                                     case &quot;3gp&quot;: case &quot;3GP&quot;:&#xa;                                                                             case &quot;ASF&quot;: case &quot;asf&quot;:&#xa;                                                                                     case &quot;f4v&quot;: case &quot;F4V&quot;:&#xa;                                                                                             case &quot;M4V&quot;: case &quot;m4v&quot;:&#xa;                                                                                                     case &quot;mpg&quot;: case &quot;MPG&quot;:&#xa;                                                                                                             case &quot;MPEG&quot;: case &quot;mpeg&quot;:&#xa;                                                                                                                     case &quot;dpg&quot;: case &quot;DPG&quot;:&#xa;                                                                                                                             case &quot;DV&quot;: case &quot;dv&quot;:&#xa;&#xa;&#xa;                                           strg[0] = newfile.getName();&#xa;                                           String bytes = String.valueOf(newfile.length());&#xa;                                            long flo_byte = Long.parseLong(bytes);&#xa;                                            long kilobyte1 = Math.round(flo_byte/1024);&#xa;                                            strg[1] = (String.valueOf(kilobyte1));&#xa;&#xa;                                            String ext1 = &quot;&quot;;&#xa;                                            int i = newfile.getName().lastIndexOf(&apos;.&apos;);&#xa;                                            if (i &gt; 0){&#xa;                                                ext1 = newfile.getName().substring(i+1);&#xa;                                            }&#xa;                                            strg[2] = ext1;&#xa;                                            strg[7] = newfile.getAbsolutePath();&#xa;                                            String chara = newfile.getName();&#xa;                                                int check = newfile.getName().length();&#xa;                                                int h = 0;&#xa;                                                String ch = &quot;&apos;&quot;;&#xa;                                                char[] c = ch.toCharArray();&#xa;                                                char cc = c[0];&#xa;                                                boolean g = true;&#xa;                                                while(h&lt;check){&#xa;                                                    if(chara.charAt(h)==cc){&#xa;                                                       String renamedValue = JOptionPane.showInputDialog(&quot;Please rename file:&quot;+chara+&quot;.\n Don&apos;t use Apostrophe(&apos;) character.&quot;);&#xa;                                                       if(renamedValue != null){&#xa;                                                       File renamingFile = new File(newfile.getPath());&#xa;                                                       renamingFile.renameTo(new File(folderPath.getText()+&quot;\\&quot;+renamedValue+&quot;.&quot;+ext1));&#xa;                                                       strg[0] = renamedValue;&#xa;                                                       strg[7] = folderPath.getText()+&quot;\\&quot;+renamedValue+&quot;.&quot;+ext1;&#xa;                                                       tf = true;&#xa;                                                       g = true;&#xa;                                                       }else{&#xa;                                                           g = false;&#xa;                                                           tf = false;&#xa;                                                           }&#xa;                                                    }&#xa;                                                    h++;&#xa;                                                }&#xa;                                                if(g){&#xa;                                                    model.addRow(strg);&#xa;                                                }&#xa;&#xa;                                           totalSize = totalSize + newfile.length();&#xa;&#xa;                                                                                                                                 break;&#xa;                                                                                                                             default:&#xa;                                                                                                                                 break;&#xa;                                             }&#xa;&#xa;&#xa;&#xa;                                       }&#xa;                                       totalSize = Math.round(totalSize/1024);&#xa;                                       }&#xa;                                       }else{&#xa;                                           DefaultTableModel model = (DefaultTableModel)jTable2.getModel();&#xa;&#xa;                                           String[] strg = new String[8];&#xa;                                           strg[0] = file.getName();&#xa;&#xa;                                           String bytes = String.valueOf(file.length());&#xa;                                            long flo_byte = Long.parseLong(bytes);&#xa;                                            long kilobyte1 = Math.round(flo_byte/1024);&#xa;                                            strg[1] = (String.valueOf(kilobyte1));&#xa;&#xa;                                            String ext1 = &quot;&quot;;&#xa;                                            int i = file.getName().lastIndexOf(&apos;.&apos;);&#xa;                                            if (i &gt; 0){&#xa;                                                ext1 = file.getName().substring(i+1);&#xa;                                            }&#xa;                                            strg[2] = ext1;&#xa;                                            strg[7] = file.getAbsolutePath();&#xa;                                            String chara = file.getName();&#xa;                                                int check = file.getName().length();&#xa;                                                int h = 0;&#xa;                                                String ch = &quot;&apos;&quot;;&#xa;                                                char[] c = ch.toCharArray();&#xa;                                                char cc = c[0];&#xa;                                                boolean t = true;&#xa;                                                while(h&lt;check){&#xa;                                                    if(chara.charAt(h)==cc){&#xa;                                                       String renamedValue = JOptionPane.showInputDialog(&quot;Please rename file:&quot;+chara+&quot;.\n Don&apos;t use Apostrophe(&apos;) character.&quot;);&#xa;                                                       if(renamedValue != null){&#xa;                                                       File renamingFile = new File(file.getPath());&#xa;                                                       renamingFile.renameTo(new File(file.getParent()+&quot;\\&quot;+renamedValue+&quot;.&quot;+ext1));&#xa;                                                       strg[0] = renamedValue;&#xa;                                                       strg[7] = file.getParent()+&quot;\\&quot;+renamedValue+&quot;.&quot;+ext1;&#xa;                                                       tf = true;&#xa;                                                       t = true;&#xa;                                                       }else{&#xa;                                                           tf = false;&#xa;                                                           t = false;&#xa;                                                       }&#xa;                                                    }&#xa;                                                    h++;&#xa;                                                }&#xa;                                                if(t){&#xa;                                                    model.addRow(strg);&#xa;                                                }&#xa;&#xa;&#xa;&#xa;                                           folderPath.setText(file.getParent());&#xa;                                           scannedFiles.setText(&quot;1 file selected!&quot;);&#xa;&#xa;&#xa;                                           for(int k = 0; k &lt; jTable2.getRowCount(); k++){&#xa;                                               totalSize = totalSize + Long.parseLong(String.valueOf(jTable2.getValueAt(k, 1)));&#xa;                                           }&#xa;&#xa;                                       }&#xa;                                       kilobyte = totalSize;&#xa;&#xa;                                            }&#xa;                                        } catch (UnsupportedFlavorException ex) {&#xa;                                            Logger.getLogger(Add_or_edit.class.getName()).log(Level.SEVERE, null, ex);&#xa;                                        } catch (IOException ex) {&#xa;                                            Logger.getLogger(Add_or_edit.class.getName()).log(Level.SEVERE, null, ex);&#xa;                                        }&#xa;                                    }&#xa;                                });&#xa;                        }&#xa;&#xa;if(ids!=0){&#xa;    title_field.setEditable(false);&#xa;}"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Year"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton5">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/moviestore/Icons/es_file_explorer_20px.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="File Explorare"/>
+        <Property name="toolTipText" type="java.lang.String" value="Choose files from file explorere"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="if(ids != 0){&#xa;    jButton5.setEnabled(false);&#xa;}"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton4">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/moviestore/Icons/download_from_cloud_25px.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Download from Internet"/>
+        <Property name="toolTipText" type="java.lang.String" value="Download from Internet"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="year">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Media created year"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancel"/>
+        <Property name="toolTipText" type="java.lang.String" value="cancel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Import"/>
+        <Property name="toolTipText" type="java.lang.String" value="Import files"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Power Geez Unicode2" size="12" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="8" rowCount="0">
+                <Column editable="false" title="Title" type="java.lang.Object"/>
+                <Column editable="false" title="Size" type="java.lang.Object"/>
+                <Column editable="false" title="Type of file" type="java.lang.Object"/>
+                <Column editable="true" title="Year" type="java.lang.Object"/>
+                <Column editable="true" title="Language" type="java.lang.Object"/>
+                <Column editable="true" title="Season" type="java.lang.Object"/>
+                <Column editable="true" title="Episode" type="java.lang.Object"/>
+                <Column editable="false" title="Path" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Press [Delete] key to delete single item"/>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor" preCode="if(ids == 0){&#xa;        jTable2.setDropTarget(new DropTarget() {&#xa;            public synchronized void drop(DropTargetDropEvent evt){&#xa;                &#xa;                    evt.acceptDrop(DnDConstants.ACTION_COPY);&#xa;                try {&#xa;                    List&lt;File&gt; droppedfile = (List&lt;File&gt;) evt.getTransferable().getTransferData(DataFlavor.javaFileListFlavor);&#xa;                    for(File file : droppedfile){&#xa;                        tf = false;&#xa;                                &#xa;                                       folder_path = file.getPath();&#xa;                                       folderPath.setText(file.getPath());&#xa;                                       if(file.isDirectory()){&#xa;                                           if(strings == null){&#xa;                                               title_field.setText(file.getName());&#xa;                                                String chara = file.getName();&#xa;                                                int check = file.getName().length();&#xa;                                                int i = 0;&#xa;                                                String ch = &quot;&apos;&quot;;&#xa;                                                char[] c = ch.toCharArray();&#xa;                                                char cc = c[0];&#xa;                                                String renamedValue;&#xa;                                                while(i&lt;check){&#xa;                                                    if(chara.charAt(i)==cc){&#xa;&#xa;                                                        renamedValue = JOptionPane.showInputDialog(&quot;Please rename file:&quot;+chara+&quot;.\n Don&apos;t use Apostrophe(&apos;) character.&quot;);&#xa;                                                        if(renamedValue != null){&#xa;                                                            File renamingFile = new File(file.getPath());&#xa;                                                            renamingFile.renameTo(new File(file.getParent()+&quot;\\&quot;+renamedValue));&#xa;                                                            title_field.setText(renamedValue);&#xa;                                                            folderPath.setText(file.getParent()+&quot;\\&quot;+renamedValue);&#xa;                                                            tf = true;&#xa;                                                            JOptionPane.showMessageDialog(Add_or_edit_series.this, &quot;Folder &quot;+file.getName()+ &quot; renamed to &quot; + renamedValue+&quot;.\n Please choose the folder again from the file explorar.&quot;);&#xa;                                                        }else{&#xa;                                                            title_field.setText(&quot;&quot;);&#xa;                                                            folderPath.setText(&quot;&quot;);&#xa;                                                            tf = false;&#xa;                                                        }&#xa;&#xa;                                                    }&#xa;                                                    i++;&#xa;                                                }&#xa;&#xa;                                           }&#xa;                                       if(!tf){&#xa;                                           Object[] fils = null;&#xa;                                           try {&#xa;                                               fils = Files.walk(Paths.get(file.getPath())).filter(Files::isRegularFile).toArray();&#xa;&#xa;                                               } catch (IOException ex) {&#xa;                                                   JOptionPane.showMessageDialog(Add_or_edit_series.this, ex.getMessage());&#xa;                                               }&#xa;                                           scannedFiles.setText(fils.length+&quot; file selected!&quot;);&#xa;                                       DefaultTableModel model = (DefaultTableModel)jTable2.getModel();&#xa;                                       String[] strg = new String[8];&#xa;                                       int j = 0;&#xa;                                       for(Object files : fils){&#xa;                                           File newfile = new File(files.toString());&#xa;                                           String ext2 = &quot;&quot;;&#xa;                                                int d = newfile.getName().lastIndexOf(&apos;.&apos;);&#xa;                                                if (d &gt; 0){&#xa;                                                    ext2 = newfile.getName().substring(d+1);&#xa;                                                  }&#xa;                                             switch (ext2) {&#xa;                                                 case &quot;mp3&quot;: case &quot;MP3&quot;:&#xa;                                                     case &quot;wav&quot;: case &quot;WAV&quot;:&#xa;                                                         case &quot;AAC&quot;: case &quot;aac&quot;:&#xa;                                                             case &quot;AC3&quot;: case &quot;ac3&quot;:&#xa;                                                                 case &quot;AIF&quot;: case &quot;aif&quot;:&#xa;                                                                     case &quot;AIFF&quot;: case &quot;aiff&quot;:&#xa;                                                                         case &quot;AU&quot;: case &quot;au&quot;:&#xa;                                                                             case &quot;FLAC&quot;: case &quot;flac&quot;:&#xa;                                                                                 case &quot;M4A&quot;: case &quot;m4a&quot;:&#xa;                                                                                     case &quot;MKA&quot;: case &quot;mka&quot;:&#xa;                                                                                         case &quot;MP2&quot;: case &quot;mp2&quot;:&#xa;                                                                                             case &quot;OGG&quot;: case &quot;ogg&quot;:&#xa;                                                                                                 case &quot;WMA&quot;: case &quot;wma&quot;:&#xa;                                                                                                     case &quot;mp4&quot;:&#xa;                                                 case &quot;MP4&quot;:&#xa;                                                 case &quot;avi&quot;:&#xa;                                                 case &quot;AVI&quot;:&#xa;                                                 case &quot;mkv&quot;:&#xa;                                                 case &quot;MKV&quot;:&#xa;                                                 case &quot;mov&quot;:&#xa;                                                 case &quot;MOV&quot;:&#xa;                                                     case &quot;flv&quot;: case &quot;FLV&quot;:&#xa;                                                             case &quot;vob&quot;: case &quot;VOB&quot;:&#xa;                                                                     case &quot;3gp&quot;: case &quot;3GP&quot;:&#xa;                                                                             case &quot;ASF&quot;: case &quot;asf&quot;:&#xa;                                                                                     case &quot;f4v&quot;: case &quot;F4V&quot;:&#xa;                                                                                             case &quot;M4V&quot;: case &quot;m4v&quot;:&#xa;                                                                                                     case &quot;mpg&quot;: case &quot;MPG&quot;:&#xa;                                                                                                             case &quot;MPEG&quot;: case &quot;mpeg&quot;:&#xa;                                                                                                                     case &quot;dpg&quot;: case &quot;DPG&quot;:&#xa;                                                                                                                             case &quot;DV&quot;: case &quot;dv&quot;:&#xa;&#xa;&#xa;                                           strg[0] = newfile.getName();&#xa;                                           String bytes = String.valueOf(newfile.length());&#xa;                                            long flo_byte = Long.parseLong(bytes);&#xa;                                            long kilobyte1 = Math.round(flo_byte/1024);&#xa;                                            strg[1] = (String.valueOf(kilobyte1));&#xa;&#xa;                                            String ext1 = &quot;&quot;;&#xa;                                            int i = newfile.getName().lastIndexOf(&apos;.&apos;);&#xa;                                            if (i &gt; 0){&#xa;                                                ext1 = newfile.getName().substring(i+1);&#xa;                                            }&#xa;                                            strg[2] = ext1;&#xa;                                            strg[7] = newfile.getAbsolutePath();&#xa;                                            String chara = newfile.getName();&#xa;                                                int check = newfile.getName().length();&#xa;                                                int h = 0;&#xa;                                                String ch = &quot;&apos;&quot;;&#xa;                                                char[] c = ch.toCharArray();&#xa;                                                char cc = c[0];&#xa;                                                boolean g = true;&#xa;                                                while(h&lt;check){&#xa;                                                    if(chara.charAt(h)==cc){&#xa;                                                       String renamedValue = JOptionPane.showInputDialog(&quot;Please rename file:&quot;+chara+&quot;.\n Don&apos;t use Apostrophe(&apos;) character.&quot;);&#xa;                                                       if(renamedValue != null){&#xa;                                                       File renamingFile = new File(newfile.getPath());&#xa;                                                       renamingFile.renameTo(new File(folderPath.getText()+&quot;\\&quot;+renamedValue+&quot;.&quot;+ext1));&#xa;                                                       strg[0] = renamedValue;&#xa;                                                       strg[7] = folderPath.getText()+&quot;\\&quot;+renamedValue+&quot;.&quot;+ext1;&#xa;                                                       tf = true;&#xa;                                                       g = true;&#xa;                                                       }else{&#xa;                                                           g = false;&#xa;                                                           tf = false;&#xa;                                                           }&#xa;                                                    }&#xa;                                                    h++;&#xa;                                                }&#xa;                                                if(g){&#xa;                                                    model.addRow(strg);&#xa;                                                }&#xa;&#xa;                                           totalSize = totalSize + newfile.length();&#xa;&#xa;                                                                                                                                 break;&#xa;                                                                                                                             default:&#xa;                                                                                                                                 break;&#xa;                                             }&#xa;&#xa;&#xa;&#xa;                                       }&#xa;                                       totalSize = Math.round(totalSize/1024);&#xa;                                       }&#xa;                                       }else{&#xa;                                           DefaultTableModel model = (DefaultTableModel)jTable2.getModel();&#xa;&#xa;                                           String[] strg = new String[8];&#xa;                                           strg[0] = file.getName();&#xa;&#xa;                                           String bytes = String.valueOf(file.length());&#xa;                                            long flo_byte = Long.parseLong(bytes);&#xa;                                            long kilobyte1 = Math.round(flo_byte/1024);&#xa;                                            strg[1] = (String.valueOf(kilobyte1));&#xa;&#xa;                                            String ext1 = &quot;&quot;;&#xa;                                            int i = file.getName().lastIndexOf(&apos;.&apos;);&#xa;                                            if (i &gt; 0){&#xa;                                                ext1 = file.getName().substring(i+1);&#xa;                                            }&#xa;                                            strg[2] = ext1;&#xa;                                            strg[7] = file.getAbsolutePath();&#xa;                                            String chara = file.getName();&#xa;                                                int check = file.getName().length();&#xa;                                                int h = 0;&#xa;                                                String ch = &quot;&apos;&quot;;&#xa;                                                char[] c = ch.toCharArray();&#xa;                                                char cc = c[0];&#xa;                                                boolean t = true;&#xa;                                                while(h&lt;check){&#xa;                                                    if(chara.charAt(h)==cc){&#xa;                                                       String renamedValue = JOptionPane.showInputDialog(&quot;Please rename file:&quot;+chara+&quot;.\n Don&apos;t use Apostrophe(&apos;) character.&quot;);&#xa;                                                       if(renamedValue != null){&#xa;                                                       File renamingFile = new File(file.getPath());&#xa;                                                       renamingFile.renameTo(new File(file.getParent()+&quot;\\&quot;+renamedValue+&quot;.&quot;+ext1));&#xa;                                                       strg[0] = renamedValue;&#xa;                                                       strg[7] = file.getParent()+&quot;\\&quot;+renamedValue+&quot;.&quot;+ext1;&#xa;                                                       tf = true;&#xa;                                                       t = true;&#xa;                                                       }else{&#xa;                                                           tf = false;&#xa;                                                           t = false;&#xa;                                                       }&#xa;                                                    }&#xa;                                                    h++;&#xa;                                                }&#xa;                                                if(t){&#xa;                                                    model.addRow(strg);&#xa;                                                }&#xa;&#xa;&#xa;&#xa;                                           folderPath.setText(file.getParent());&#xa;                                           scannedFiles.setText(&quot;1 file selected!&quot;);&#xa;&#xa;&#xa;                                           for(int k = 0; k &lt; jTable2.getRowCount(); k++){&#xa;                                               totalSize = totalSize + Long.parseLong(String.valueOf(jTable2.getValueAt(k, 1)));&#xa;                                           }&#xa;&#xa;                                       }&#xa;                                       kilobyte = totalSize;&#xa;&#xa;                                            }&#xa;                                        } catch (UnsupportedFlavorException ex) {&#xa;                                            Logger.getLogger(Add_or_edit.class.getName()).log(Level.SEVERE, null, ex);&#xa;                                        } catch (IOException ex) {&#xa;                                            Logger.getLogger(Add_or_edit.class.getName()).log(Level.SEVERE, null, ex);&#xa;                                        }&#xa;                                    }&#xa;                                });&#xa;                        }">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="dragEnabled" type="boolean" value="true"/>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTable2KeyPressed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Folder Path :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="folderPath">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/moviestore/Icons/ssd_48px.png"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Device Scanner :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="scannedFiles">
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add multi"/>
+        <Property name="toolTipText" type="java.lang.String" value="Add multipile video or music at once"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Delete"/>
+        <Property name="toolTipText" type="java.lang.String" value="Delete single row from the table"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add imag"/>
+        <Property name="toolTipText" type="java.lang.String" value="Add Image/ photo of your video center that entertain you"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
